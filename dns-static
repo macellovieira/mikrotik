@@ -1,3 +1,5 @@
+https://forum.mikrotik.com/viewtopic.php?t=82588
+
 /ip dns static
 add address=127.0.0.1 name=3g.qq.com
 add address=127.0.0.1 name=a01.uadexchange.com
