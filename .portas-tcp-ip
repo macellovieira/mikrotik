@@ -1,0 +1,30 @@
+Range : 1 ~ 65.535
+
+Referencias
+https://pt.wikipedia.org/wiki/Lista_de_portas_dos_protocolos_TCP_e_UDP#Portas_0_a_995
+
+Portas Padroões :
+
+  22 : SSH - ( Secure Shell - Shell seguro) - Usada para logins seguros, transferência de arquivos e redirecionamento de porta )
+  22 : FTP - ( File Transfer Protocol - Protocolo de transferência de arquivo )
+  23 : FTP - ( Telnet Protocol - Comunicação de texto sem encriptação )  
+  25 : SMTP - ( Simple Mail Transfer Protocol )
+  42 : WINS
+  43 : WHOIS - ( Protocolo de consulta de informações de contato e DNSprotocol )
+  53 : DNS - ( Domain Name System - Sistema de nome de domínio )
+  67 : UDP - BOOTP/DHCP ( BootStrap Protocol ) Utilizada por DHCP ( Protocolo de configuração dinâmica )
+  68 : UDP - BOOTP/DHCP ( Client Utilizada por DHCP )
+  80 : HTTP - ( HyperText Transfer Protocol - Procolo de transferência de HiperTexto )
+ 110 : POP
+ 443 : HTTPS
+ 465 : TCP ( SMTP over SSL )
+ 992 : TCP/UDP - Telnet protocol over TLS/SSL
+ 993 : TCP - IMAP4 sobre SSL (transmissão segura)
+ 995 : TCP - POP3 sobre SSL (transmissão segura) 
+3389 : TS/RDP/WTS
+1080 : TCP - SOCKS proxy
+1433 : SQL-Server
+8080 : HTTP
+8181 : HTTP
+
+
