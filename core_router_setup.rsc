@@ -23,19 +23,19 @@
     # DHCP - Automatically set if package is installed
     :local dhcpServer ""
     :local lanPoolName ""
-    :local poolStart "192.168.10.100"
-    :local poolEnd "192.168.10.150"
+    :local poolStart "192.168.1.100"
+    :local poolEnd "192.168.1.200"
 
-    :local lanAddress "192.168.10.1"
-    :local lanNetworkAddress "192.168.10.0"
+    :local lanAddress "192.168.1.1"
+    :local lanNetworkAddress "192.168.1.0"
     :local lanNetworkBits "24"
 
     # Interfaces
-    :local ether1 "ether1-gateway"
-    :local ether2 "ether2-master-local"
-    :local ether3 "ether3-slave-local"
-    :local ether4 "ether4-slave-local"
-    :local ether5 "ether5-slave-local"
+    :local ether1 "ether-1-gateway"
+    :local ether2 "ether-2"
+    :local ether3 "ether-3"
+    :local ether4 "ether-4"
+    :local ether5 "ether-5-lan"
 
     # SSH
     :local sshPort 22
@@ -174,8 +174,8 @@
 
     :log info "--- Setting up simple firewall rules ---";
     /ip firewall {
-      filter add chain=input action=accept connection-state=established,related comment="Allow established connections"
-      filter add chain=input action=drop in-interface=$ether1
+      filter add chain=input   action=accept connection-state=established,related comment="Allow established connections"
+      filter add chain=input   action=drop in-interface=$ether1
       filter add chain=forward action=fasttrack-connection connection-state=established,related
       filter add chain=forward action=accept connection-state=established,related
       filter add chain=forward action=drop connection-state=invalid
@@ -187,7 +187,7 @@
     #
     #-------------------------------------------------------------------------------
     :log info "--- Disabling neighbor discovery ---";
-    /ip neighbor discovery set [find name="ether1-gateway"] discover=no;
+    /ip neighbor discovery set [find name="ether-1-gateway"] discover=no;
 
     :log info "--- Disabling bandwidth test server ---";
     /tool bandwidth-server set enabled=no;
