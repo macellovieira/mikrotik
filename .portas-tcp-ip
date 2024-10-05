@@ -5,26 +5,38 @@ https://pt.wikipedia.org/wiki/Lista_de_portas_dos_protocolos_TCP_e_UDP#Portas_0_
 
 Portas Padroões :
 
-  22 : SSH - ( Secure Shell - Shell seguro) - Usada para logins seguros, transferência de arquivos e redirecionamento de porta )
-  22 : FTP - ( File Transfer Protocol - Protocolo de transferência de arquivo )
-  23 : FTP - ( Telnet Protocol - Comunicação de texto sem encriptação )  
-  25 : SMTP - ( Simple Mail Transfer Protocol )
-  42 : WINS
-  43 : WHOIS - ( Protocolo de consulta de informações de contato e DNSprotocol )
-  53 : DNS - ( Domain Name System - Sistema de nome de domínio )
-  67 : UDP - BOOTP/DHCP ( BootStrap Protocol ) Utilizada por DHCP ( Protocolo de configuração dinâmica )
-  68 : UDP - BOOTP/DHCP ( Client Utilizada por DHCP )
-  80 : HTTP - ( HyperText Transfer Protocol - Procolo de transferência de HiperTexto )
- 110 : POP
- 443 : HTTPS
- 465 : TCP ( SMTP over SSL )
- 992 : TCP/UDP - Telnet protocol over TLS/SSL
- 993 : TCP - IMAP4 sobre SSL (transmissão segura)
- 995 : TCP - POP3 sobre SSL (transmissão segura) 
-3389 : TS/RDP/WTS
-1080 : TCP - SOCKS proxy
-1433 : SQL-Server
-8080 : HTTP
-8181 : HTTP
+   22 : SSH - ( Secure Shell - Shell seguro) - Usada para logins seguros, transferência de arquivos e redirecionamento de porta )
+   22 : FTP - ( File Transfer Protocol - Protocolo de transferência de arquivo )
+   23 : FTP - ( Telnet Protocol - Comunicação de texto sem encriptação )  
+   25 : SMTP - ( Simple Mail Transfer Protocol )
+   42 : WINS
+   43 : WHOIS - ( Protocolo de consulta de informações de contato e DNSprotocol )
+   53 : DNS - ( Domain Name System - Sistema de nome de domínio )
+   67 : UDP - BOOTP/DHCP ( BootStrap Protocol ) Utilizada por DHCP ( Protocolo de configuração dinâmica )
+   68 : UDP - BOOTP/DHCP ( Client Utilizada por DHCP )
+   80 : HTTP - ( HyperText Transfer Protocol - Procolo de transferência de HiperTexto )
+  110 : POP
+  443 : HTTPS
+  465 : TCP ( SMTP over SSL )
+  992 : TCP/UDP - Telnet protocol over TLS/SSL
+  993 : TCP - IMAP4 sobre SSL (transmissão segura)
+  995 : TCP - POP3 sobre SSL (transmissão segura) 
+ 3389 : TS/RDP/WTS
+ 1080 : TCP - SOCKS proxy
+ 1433 : SQL-Server
+ 1900 : UDP - Microsoft SSDP. Habilita a descoberta de dispositivos UPnP
+ 8080 : HTTP - ( HyperText Transfer Protocol - Procolo de transferência de HiperTexto )
+ 8181 : HTTP - ( HyperText Transfer Protocol - Procolo de transferência de HiperTexto )
+37777 : DVR - Intelbras
+
+
+•    80 - Porta HTTP ou porta WEB normalmente utilizada para acesso via browser ao equipamento.
+•   443 – Porta HTTPS ou porta segura utilizada para acesso seguro aos dispositivos.
+•   554 – Porta RTSP utilizada pela maioria das plataformas de gravação em nuvem como Camerite, Monuv e ETC.
+•  8000 – Porta de dados utilizada para acesso via SDK ou API pelos equipamentos Hikvision Topway, Visionbras, JFL e outros
+•  9008 - Porta de dados utilizada para acesso via SDK ou API pelos equipamentos TVT ( Motorola e Tecvoz)
+• 34567 - Porta de dados utilizada para acesso via SDK ou API pelos equipamentos XM- Giga, Clear, Citrox, Greatek e outros
+• 37777 - Porta de dados utilizada para acesso via SDK ou API pelos equipamentos Dahua (intelbras)
+
 
 
