@@ -3,6 +3,7 @@ The script below allows the setting up of LAN, WAN (direct connect or PPPoE) and
 A brief description of the functions configured:
 
 Set identity of router
+
 Set password for admin user
 Set up NTP client, including adding a script to ensure pool.ntp.org FQDNs are regularly resolved and updated
 Set up name servers
