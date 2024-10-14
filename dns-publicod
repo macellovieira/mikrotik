@@ -1,0 +1,15 @@
+Google DNS:
+Primário:   8.8.8.8
+Secundário: 8.8.4.4
+
+OpenDNS:
+Primário:   208.67.222.222
+Secundário: 208.67.220.220
+
+Cloudflare:
+Primário:   1.1.1.1
+Secundário: 1.0.0.1
+
+Quad9: 
+Primário:   9.9.9.9
+Secundário: 149.112.112.112
