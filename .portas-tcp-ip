@@ -25,6 +25,7 @@ Portas Padroões :
  1080 : TCP - SOCKS proxy
  1433 : SQL-Server
  1900 : UDP - Microsoft SSDP. Habilita a descoberta de dispositivos UPnP
+ 5060 : Porta padrão do protocolo SIP (Session Initiation Protocol), que é usado para estabelecer, modificar e finalizar chamadas telefônicas VoIP
  8080 : HTTP - ( HyperText Transfer Protocol - Procolo de transferência de HiperTexto )
  8181 : HTTP - ( HyperText Transfer Protocol - Procolo de transferência de HiperTexto )
 37777 : DVR - Intelbras
